@@ -3,7 +3,10 @@ const baseUrl = 'https://carchost.fieldcontrol.com.br'
 const {
   Employee,
   Ticket,
-  Service
+  Service,
+  Customer,
+  Order,
+  Task
 } = require('./resources')
 
 const responseWith = (response) => ({
@@ -28,6 +31,9 @@ class Client {
     this.employees = new Employee(this)
     this.tickets = new Ticket(this)
     this.services = new Service(this)
+    this.customers = new Customer(this)
+    this.orders = new Order(this)
+    this.tasks = new Task(this)
   }
 
   get (resourceUri, params = {}) {
