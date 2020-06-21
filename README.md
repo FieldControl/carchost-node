@@ -1,5 +1,5 @@
 <div align="center">
-  <a target="_blank" href="https://fieldcontrol.com.br/"><img src=".github/static/cover.jpeg" alt="FieldControl Cover" height="400px"></a>
+  <a target="_blank" href="https://fieldcontrol.com.br/"><img src=".github/static/cover.jpg" alt="FieldControl Cover" height="400px"></a>
   <div><code>npm install FieldControl --save</code></div>
   <br>
   <p>
