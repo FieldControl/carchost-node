@@ -7,7 +7,10 @@
   </p>
   <p>
 
-
+![Field Control ♥](https://img.shields.io/badge/Field%20Control-%20%20%20%20%20%20♥-blue.svg)
+![Continuous Integration](https://github.com/FieldControl/carchost-node/workflows/Continuous%20Integration/badge.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/413959ae9e77c5c1d9a7/maintainability)](https://codeclimate.com/github/FieldControl/carchost-node/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/413959ae9e77c5c1d9a7/test_coverage)](https://codeclimate.com/github/FieldControl/carchost-node/test_coverage)
 
   </p>
   <small>
