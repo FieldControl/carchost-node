@@ -1,6 +1,6 @@
 {
   "name": "fieldcontrol",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": ":cloud: Node.js bindings for the Field Control API",
   "main": "src/index.js",
   "scripts": {
