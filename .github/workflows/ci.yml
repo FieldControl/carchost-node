@@ -15,3 +15,9 @@ jobs:
     - run: npm install
     - run: npm run lint
     - run: npm test
+    - name: Publish Code Climate coverage
+      uses: paambaati/codeclimate-action@v2.3.0
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      with:
+        debug: true
