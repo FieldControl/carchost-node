@@ -41,7 +41,7 @@ describe('Tickets', () => {
   })
 
   it('should list tickets by name and with pagination options', async () => {
-    nock('https://carchost.fieldcontrol.com.br').get('/employees?limit=10&offset=0&q=name:"Luiz"').reply(200, {})
+    nock('https://carchost.fieldcontrol.com.br').get('/tickets?limit=10&offset=0&q=name:"Luiz"').reply(200, {})
     const response = await client.tickets.list({
       filter: {
         name: 'Luiz'
@@ -55,7 +55,10 @@ describe('Tickets', () => {
   })
 
   it('should list tickets by identifier and with pagination options', async () => {
-    nock('https://carchost.fieldcontrol.com.br').get('/employees?limit=10&offset=0&q=identifier:"1234567"').reply(200, {})
+    nock('https://carchost.fieldcontrol.com.br')
+    .get('/tickets?limit=10&offset=0&q=identifier:"1234567"')
+    .reply(200, {})
+
     const response = await client.tickets.list({
       filter: {
         identifier: '1234567'
@@ -69,7 +72,10 @@ describe('Tickets', () => {
   })
 
   it('should list tickets by identifier, name, archived and with pagination options', async () => {
-    nock('https://carchost.fieldcontrol.com.br').get('/employees?limit=10&offset=1&q=identifier:"1234567" name:"Freneda" archived:"true"').reply(200, {})
+    nock('https://carchost.fieldcontrol.com.br')
+    .get('/tickets?limit=10&offset=1&q=identifier:"1234567" name:"Freneda" archived:"true"')
+    .reply(200, {})
+    
     const response = await client.tickets.list({
       filter: {
         identifier: '1234567',

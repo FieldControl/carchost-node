@@ -20,7 +20,7 @@ class Ticket {
   }
 
   list ({ filter, pagination } = {}) {
-    return this.client.get('employees', {
+    return this.client.get('tickets', {
       ...getPaginationQueryParams(pagination),
       ...filterWith(filter, ['name', 'identifier', 'archived'])
     })
