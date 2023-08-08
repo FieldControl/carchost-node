@@ -17,7 +17,7 @@
   <small>
     Feito com 💙 pela 
       <a href="https://github.com/FieldControl">FieldControl</a> e
-      <a href="https://github.com/FieldControl/contaazul/graphs/contributors">contribuidores</a> - <a href="https://fieldcontrol.com.br/vaga-para-desenvolvedor.html?utm_source=github&utm_medium=opensource&utm_campaign=carchost-node">Estamos contratando!</a>
+      <a href="https://github.com/FieldControl/carchost-node/graphs/contributors">contribuidores</a> - <a href="https://fieldcontrol.com.br/vaga-para-desenvolvedor.html?utm_source=github&utm_medium=opensource&utm_campaign=carchost-node">Estamos contratando!</a>
   </small>
 </div>
 
